@@ -1,0 +1,15 @@
+{
+  "name": "random-image-api",
+  "version": "1.0.0",
+  "description": "Random Image API",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^3.2.0",
+    "random-image-api": "file:"
+  }
+}
